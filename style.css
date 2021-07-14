@@ -212,3 +212,35 @@ header{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+/* ----world ranking section design--- */
+
+.ranking-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.flag-name{
+    display: flex;
+}
+.flag-name img{
+    padding: 20px;
+}
+.ranking-heading{
+    margin-right: 50px;
+}
+
+table{
+    width: 600px;
+}
+th{
+    text-align: left;
+    padding: 20px;
+
+}
+td{
+    padding: 20px;
+}
+
+/* ---done--- */
