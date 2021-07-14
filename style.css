@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top section */
+
+header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;
+}
+
+.top-part-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copa-america{
+    width: 485px;
+    height : 230px;
+    margin-right: 300px;
+}
+
+.top-heading{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+/* making sure copa america stays on same line */
+.nowrap{
+    white-space: nowrap;
+
+}
+
+.featured-player{
+    width: 557px;
+    height: 438px;
+}
+.featured-player img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+/* ---hovering effects--- */
+.featured-player img:hover{
+    width: 110%;
+    height: 110%;
+    transition:ease-in 0.3s;
+}
+.buttons:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    font-size: 1.1em;
+    transition: ease-in 0.1s;
+}
+.player:hover{
+    box-shadow: rgb(129, 129, 129) 0px 2px 8px 0px;
+
+}
+/* ---done--- */
+
+/* this will apply to all buttons */
+
+.buttons{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+}
+a{
+    margin-top: 37px;
+}
+.buttons i{
+    margin-left: 9px;
+    font-size: 16px;
+}
+
+
+
+/* ----button-design-done---- */
+/* ---------------------- */
+
+/* ---player gallery desing starts here--- */
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.player-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    margin-right:;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.player-img{
+    width: 90%;
+    padding: 15px;
+}
+.player-name, p{
+    padding: 0 0 0 15px;
+    margin-top: -9px;
+}
