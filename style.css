@@ -181,37 +181,6 @@ header{
 
 
 
-/* media queries */
-
-@media screen and (max-width: 1024px){
-    .top-heading{
-        margin: 0;
-        padding-top: 100px;
-    }
-    .copa-america{
-        margin-left: 20px;
-    }
-    header{
-        /* width: 100%; */
-        height: 900px;
-    }
-    .top-part-container{
-        display: block;
-
-    }
-    .featured-player{
-        width: 400px;
-        height: 350px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-        margin-top: 200px;
-    }
-    .player-grid{
-        /* display: grid; */
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 
 /* ----world ranking section design--- */
@@ -244,3 +213,126 @@ td{
 }
 
 /* ---done--- */
+
+
+/* ---Fixture secton--- */
+
+
+.schedule{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+
+}
+.schedule-container{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(129, 129, 129) 0px 2px 8px 0px;
+
+}
+.match{
+    padding: 20px;
+}
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1024px){
+    section, div{
+        margin-left: 10px;
+    }
+    .top-heading{
+        margin: 0;
+        padding-top: 100px;
+    }
+    .copa-america{
+        margin-left: 20px;
+    }
+    header{
+        /* width: 100%; */
+        height: 900px;
+    }
+    .top-part-container{
+        display: block;
+
+    }
+    .featured-player{
+        width: 400px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .player-grid{
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .highlights-container{
+        flex-direction: column;
+    }
+    .highlights-container iframe{
+        margin-top: 40px;
+    }
+    .ranking-container{
+        flex-direction: column;
+    }
+    .schedule-container, .schedule{
+        float: left;
+    }
+}
+
+
+/* ---for mobile--- */
+@media screen and (max-width: 500px){
+    *{
+        margin: 0;
+    }
+    section, div{
+        margin-left: 10px;
+    }
+    .top-heading{
+        margin: 0;
+        padding-top: 100px;
+    }
+    .copa-america{
+        margin-left: 20px;
+    }
+    header{
+        /* width: 100%; */
+        height: 900px;
+    }
+    .top-part-container{
+        display: block;
+
+    }
+    .featured-player{
+        width: 400px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .player-grid{
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights-container{
+        flex-direction: column;
+    }
+    .highlights-container iframe{
+        margin-top: 40px;
+    }
+    .ranking-container{
+        flex-direction: column;
+    }
+    .schedule-container, .schedule{
+        float: left;
+    }
+    th, td{
+        padding: 10px;
+    }
+}
