@@ -332,7 +332,13 @@ td{
     .schedule-container, .schedule{
         float: left;
     }
-    th, td{
-        padding: 10px;
+    table{
+        width: 300px;
+    }
+    .flag-name h3{
+        display: none;
+    }
+    .top-heading{
+        font-size: 36px;
     }
 }
