@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* --all paragraph tags color--- */
+p{
+    color: #6C6C6C;
+}
+
 body{
     margin: 0;
     padding: 0;
