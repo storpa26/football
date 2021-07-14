@@ -275,6 +275,8 @@ td{
     }
     .highlights-container iframe{
         margin-top: 40px;
+        width: 248px;
+        height: 328px;
     }
     .ranking-container{
         flex-direction: column;
