@@ -8,28 +8,22 @@ body{
 
 /* top section */
 
-header{
-    background-color: #2D25A0;
-    width: 100%;
-    height: 677px;
-}
 
 .top-part-container{
+    margin: 0;
+    width: 100%;
+    height: 667px;
+    background-color: #2D25A0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.copa-america{
-    width: 485px;
-    height : 230px;
-    margin-right: 300px;
 }
 
 .top-heading{
     color: #FFFFFF;
     font-size: 64px;
     font-weight: 700;
+    margin-right: 300px;
     margin-bottom: 27px;
 }
 /* making sure copa america stays on same line */
@@ -38,14 +32,9 @@ header{
 
 }
 
-.featured-player{
-    width: 557px;
-    height: 438px;
-}
 .featured-player img{
-    width: 100%;
-    height: 100%;
-    margin-top: 100px;
+    width: 556.01px;
+    height: 438px;
 }
 
 
@@ -239,32 +228,30 @@ td{
 
 /* media queries */
 
+/* ---ipad--- */
+
 @media screen and (max-width: 1024px){
     section, div{
         margin-left: 10px;
     }
     .top-heading{
+        font-size: 36px;
         margin: 0;
         padding-top: 100px;
     }
     .copa-america{
         margin-left: 20px;
     }
-    header{
-        /* width: 100%; */
-        height: 900px;
-    }
+
     .top-part-container{
+        height: 700px;
         display: block;
 
     }
-    .featured-player{
-        width: 400px;
-        height: 350px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-        margin-top: 200px;
+    .featured-player img{
+        width: 350px;
+        height: 270px;
+        padding: 50px 0 0 10px;
     }
     .player-grid{
         /* display: grid; */
@@ -275,8 +262,9 @@ td{
     }
     .highlights-container iframe{
         margin-top: 40px;
-        width: 248px;
-        height: 328px;
+        width: 100%;
+        height: 450px;
+        padding: 5px;
     }
     .ranking-container{
         flex-direction: column;
@@ -297,29 +285,12 @@ td{
     }
     .top-heading{
         margin: 0;
-        padding-top: 100px;
-    }
-    .copa-america{
-        margin-left: 20px;
-    }
-    header{
-        /* width: 100%; */
-        height: 900px;
+        padding-bottom: 30px;
     }
     .top-part-container{
         display: block;
-
-    }
-    .featured-player{
-        width: 400px;
-        height: 350px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-        margin-top: 200px;
     }
     .player-grid{
-        /* display: grid; */
         grid-template-columns: repeat(1, 1fr);
     }
     .highlights-container{
@@ -327,6 +298,10 @@ td{
     }
     .highlights-container iframe{
         margin-top: 40px;
+        width: auto;
+        height: 200px;
+        padding: 5px;
+
     }
     .ranking-container{
         flex-direction: column;
@@ -334,6 +309,7 @@ td{
     .schedule-container, .schedule{
         float: left;
     }
+
     table{
         width: 300px;
     }
